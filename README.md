@@ -1,4 +1,4 @@
-# New UI withe Chinese language
+# New UI with Chinese language
 
 ![screenshot](https://aws1.discourse-cdn.com/eveonline/original/3X/5/6/56920d4284670c6b8d628498ed18d5570ccaa073.jpeg)
 
