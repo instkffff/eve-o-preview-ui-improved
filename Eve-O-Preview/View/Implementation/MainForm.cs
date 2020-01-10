@@ -2,11 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
+using MetroSet_UI.Forms;
 
 namespace EveOPreview.View
 {
-	public partial class MainForm : Form, IMainFormView
-	{
+	public partial class MainForm : MetroSetForm, IMainFormView
+    {
 		#region Private fields
 		private readonly ApplicationContext _context;
 		private readonly Dictionary<ViewZoomAnchor, RadioButton> _zoomAnchorMap;
@@ -32,7 +33,11 @@ namespace EveOPreview.View
 			this.InitZoomAnchorMap();
 		}
 
-		public bool MinimizeToTray
+        protected MainForm()
+        {
+        }
+
+        public bool MinimizeToTray
 		{
 			get => this.MinimizeToTrayCheckBox.Checked;
 			set => this.MinimizeToTrayCheckBox.Checked = value;
@@ -173,8 +178,8 @@ namespace EveOPreview.View
 			set
 			{
 				this._activeClientHighlightColor = value;
-				this.ActiveClientHighlightColorButton.BackColor = value;
-			}
+                this.ActiveClientHighlightColorButton.BackColor = value;
+            }
 		}
 		private Color _activeClientHighlightColor;
 
@@ -203,7 +208,7 @@ namespace EveOPreview.View
 
 		public void SetVersionInfo(string version)
 		{
-			this.VersionLabel.Text = version;
+			
 		}
 
 		public void SetDocumentationUrl(string url)
@@ -391,5 +396,30 @@ namespace EveOPreview.View
 			this._zoomAnchorMap[ViewZoomAnchor.S] = this.ZoomAanchorSRadioButton;
 			this._zoomAnchorMap[ViewZoomAnchor.SE] = this.ZoomAanchorSERadioButton;
 		}
-	}
+
+        private void Checked_handler(object sender)
+        {
+            if (this._suppressEvents)
+            {
+                return;
+            }
+
+            this.ApplicationSettingsChanged?.Invoke();
+        }
+
+        private void scroll(object sender)
+        {
+            if (this._suppressEvents)
+            {
+                return;
+            }
+            this.ApplicationSettingsChanged?.Invoke();
+
+        }
+
+        private void metroSetLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
