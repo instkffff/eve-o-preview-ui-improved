@@ -236,6 +236,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="FodyWeavers.xml" />
+    <None Include="background.png" />
+    <None Include="background scale.png" />
     <Content Include="icon.ico" />
   </ItemGroup>
   <ItemGroup />
