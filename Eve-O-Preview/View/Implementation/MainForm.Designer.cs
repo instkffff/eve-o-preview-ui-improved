@@ -141,7 +141,7 @@ namespace EveOPreview.View
             MainTab.ItemSize = new System.Drawing.Size(100, 38);
             MainTab.Location = new System.Drawing.Point(16, 83);
             MainTab.Name = "MainTab";
-            MainTab.SelectedIndex = 0;
+            MainTab.SelectedIndex = 5;
             MainTab.Size = new System.Drawing.Size(360, 290);
             MainTab.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             MainTab.Speed = 20;
@@ -186,7 +186,7 @@ namespace EveOPreview.View
             this.EnablePerClientThumbnailsLayoutsCheckBox.CheckState = MetroSet_UI.Enums.CheckState.Unchecked;
             this.EnablePerClientThumbnailsLayoutsCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.EnablePerClientThumbnailsLayoutsCheckBox.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.EnablePerClientThumbnailsLayoutsCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.EnablePerClientThumbnailsLayoutsCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.EnablePerClientThumbnailsLayoutsCheckBox.Location = new System.Drawing.Point(9, 185);
             this.EnablePerClientThumbnailsLayoutsCheckBox.Name = "EnablePerClientThumbnailsLayoutsCheckBox";
             this.EnablePerClientThumbnailsLayoutsCheckBox.SignStyle = MetroSet_UI.Enums.SignStyle.Sign;
@@ -209,7 +209,7 @@ namespace EveOPreview.View
             this.HideThumbnailsOnLostFocusCheckBox.CheckState = MetroSet_UI.Enums.CheckState.Unchecked;
             this.HideThumbnailsOnLostFocusCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.HideThumbnailsOnLostFocusCheckBox.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.HideThumbnailsOnLostFocusCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.HideThumbnailsOnLostFocusCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.HideThumbnailsOnLostFocusCheckBox.Location = new System.Drawing.Point(9, 157);
             this.HideThumbnailsOnLostFocusCheckBox.Name = "HideThumbnailsOnLostFocusCheckBox";
             this.HideThumbnailsOnLostFocusCheckBox.SignStyle = MetroSet_UI.Enums.SignStyle.Sign;
@@ -232,7 +232,7 @@ namespace EveOPreview.View
             this.ShowThumbnailsAlwaysOnTopCheckBox.CheckState = MetroSet_UI.Enums.CheckState.Unchecked;
             this.ShowThumbnailsAlwaysOnTopCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ShowThumbnailsAlwaysOnTopCheckBox.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.ShowThumbnailsAlwaysOnTopCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.ShowThumbnailsAlwaysOnTopCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.ShowThumbnailsAlwaysOnTopCheckBox.Location = new System.Drawing.Point(9, 129);
             this.ShowThumbnailsAlwaysOnTopCheckBox.Name = "ShowThumbnailsAlwaysOnTopCheckBox";
             this.ShowThumbnailsAlwaysOnTopCheckBox.SignStyle = MetroSet_UI.Enums.SignStyle.Sign;
@@ -255,7 +255,7 @@ namespace EveOPreview.View
             this.MinimizeInactiveClientsCheckBox.CheckState = MetroSet_UI.Enums.CheckState.Unchecked;
             this.MinimizeInactiveClientsCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MinimizeInactiveClientsCheckBox.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.MinimizeInactiveClientsCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.MinimizeInactiveClientsCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.MinimizeInactiveClientsCheckBox.Location = new System.Drawing.Point(9, 101);
             this.MinimizeInactiveClientsCheckBox.Name = "MinimizeInactiveClientsCheckBox";
             this.MinimizeInactiveClientsCheckBox.SignStyle = MetroSet_UI.Enums.SignStyle.Sign;
@@ -278,7 +278,7 @@ namespace EveOPreview.View
             this.HideActiveClientThumbnailCheckBox.CheckState = MetroSet_UI.Enums.CheckState.Unchecked;
             this.HideActiveClientThumbnailCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.HideActiveClientThumbnailCheckBox.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.HideActiveClientThumbnailCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.HideActiveClientThumbnailCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.HideActiveClientThumbnailCheckBox.Location = new System.Drawing.Point(9, 73);
             this.HideActiveClientThumbnailCheckBox.Name = "HideActiveClientThumbnailCheckBox";
             this.HideActiveClientThumbnailCheckBox.SignStyle = MetroSet_UI.Enums.SignStyle.Sign;
@@ -301,7 +301,7 @@ namespace EveOPreview.View
             this.EnableClientLayoutTrackingCheckBox.CheckState = MetroSet_UI.Enums.CheckState.Unchecked;
             this.EnableClientLayoutTrackingCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.EnableClientLayoutTrackingCheckBox.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.EnableClientLayoutTrackingCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.EnableClientLayoutTrackingCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.EnableClientLayoutTrackingCheckBox.Location = new System.Drawing.Point(9, 45);
             this.EnableClientLayoutTrackingCheckBox.Name = "EnableClientLayoutTrackingCheckBox";
             this.EnableClientLayoutTrackingCheckBox.SignStyle = MetroSet_UI.Enums.SignStyle.Sign;
@@ -324,7 +324,7 @@ namespace EveOPreview.View
             this.MinimizeToTrayCheckBox.CheckState = MetroSet_UI.Enums.CheckState.Unchecked;
             this.MinimizeToTrayCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MinimizeToTrayCheckBox.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.MinimizeToTrayCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.MinimizeToTrayCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.MinimizeToTrayCheckBox.Location = new System.Drawing.Point(9, 18);
             this.MinimizeToTrayCheckBox.Name = "MinimizeToTrayCheckBox";
             this.MinimizeToTrayCheckBox.SignStyle = MetroSet_UI.Enums.SignStyle.Sign;
@@ -410,7 +410,7 @@ namespace EveOPreview.View
             // 
             // metroSetLabel2
             // 
-            this.metroSetLabel2.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.metroSetLabel2.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.metroSetLabel2.Location = new System.Drawing.Point(184, 45);
             this.metroSetLabel2.Name = "metroSetLabel2";
             this.metroSetLabel2.Size = new System.Drawing.Size(66, 18);
@@ -423,7 +423,7 @@ namespace EveOPreview.View
             // 
             // metroSetLabel1
             // 
-            this.metroSetLabel1.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.metroSetLabel1.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.metroSetLabel1.Location = new System.Drawing.Point(9, 45);
             this.metroSetLabel1.Name = "metroSetLabel1";
             this.metroSetLabel1.Size = new System.Drawing.Size(66, 18);
@@ -460,7 +460,7 @@ namespace EveOPreview.View
             // 
             // Opacity
             // 
-            this.Opacity.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.Opacity.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.Opacity.Location = new System.Drawing.Point(9, 18);
             this.Opacity.Name = "Opacity";
             this.Opacity.Size = new System.Drawing.Size(49, 16);
@@ -610,7 +610,7 @@ namespace EveOPreview.View
             // 
             // metroSetLabel4
             // 
-            this.metroSetLabel4.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.metroSetLabel4.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.metroSetLabel4.Location = new System.Drawing.Point(9, 73);
             this.metroSetLabel4.Name = "metroSetLabel4";
             this.metroSetLabel4.Size = new System.Drawing.Size(66, 18);
@@ -648,7 +648,7 @@ namespace EveOPreview.View
             // 
             // metroSetLabel3
             // 
-            this.metroSetLabel3.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.metroSetLabel3.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.metroSetLabel3.Location = new System.Drawing.Point(9, 45);
             this.metroSetLabel3.Name = "metroSetLabel3";
             this.metroSetLabel3.Size = new System.Drawing.Size(66, 18);
@@ -669,7 +669,7 @@ namespace EveOPreview.View
             this.EnableThumbnailZoomCheckBox.CheckState = MetroSet_UI.Enums.CheckState.Unchecked;
             this.EnableThumbnailZoomCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.EnableThumbnailZoomCheckBox.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.EnableThumbnailZoomCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.EnableThumbnailZoomCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.EnableThumbnailZoomCheckBox.Location = new System.Drawing.Point(9, 18);
             this.EnableThumbnailZoomCheckBox.Name = "EnableThumbnailZoomCheckBox";
             this.EnableThumbnailZoomCheckBox.SignStyle = MetroSet_UI.Enums.SignStyle.Sign;
@@ -714,7 +714,7 @@ namespace EveOPreview.View
             // 
             // metroSetLabel5
             // 
-            this.metroSetLabel5.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.metroSetLabel5.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.metroSetLabel5.Location = new System.Drawing.Point(9, 101);
             this.metroSetLabel5.Name = "metroSetLabel5";
             this.metroSetLabel5.Size = new System.Drawing.Size(66, 18);
@@ -735,7 +735,7 @@ namespace EveOPreview.View
             this.EnableActiveClientHighlightCheckBox.CheckState = MetroSet_UI.Enums.CheckState.Unchecked;
             this.EnableActiveClientHighlightCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.EnableActiveClientHighlightCheckBox.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.EnableActiveClientHighlightCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.EnableActiveClientHighlightCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.EnableActiveClientHighlightCheckBox.Location = new System.Drawing.Point(9, 73);
             this.EnableActiveClientHighlightCheckBox.Name = "EnableActiveClientHighlightCheckBox";
             this.EnableActiveClientHighlightCheckBox.SignStyle = MetroSet_UI.Enums.SignStyle.Sign;
@@ -758,7 +758,7 @@ namespace EveOPreview.View
             this.ShowThumbnailFramesCheckBox.CheckState = MetroSet_UI.Enums.CheckState.Unchecked;
             this.ShowThumbnailFramesCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ShowThumbnailFramesCheckBox.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.ShowThumbnailFramesCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.ShowThumbnailFramesCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.ShowThumbnailFramesCheckBox.Location = new System.Drawing.Point(9, 45);
             this.ShowThumbnailFramesCheckBox.Name = "ShowThumbnailFramesCheckBox";
             this.ShowThumbnailFramesCheckBox.SignStyle = MetroSet_UI.Enums.SignStyle.Sign;
@@ -781,7 +781,7 @@ namespace EveOPreview.View
             this.ShowThumbnailOverlaysCheckBox.CheckState = MetroSet_UI.Enums.CheckState.Unchecked;
             this.ShowThumbnailOverlaysCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ShowThumbnailOverlaysCheckBox.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.ShowThumbnailOverlaysCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.ShowThumbnailOverlaysCheckBox.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.ShowThumbnailOverlaysCheckBox.Location = new System.Drawing.Point(9, 18);
             this.ShowThumbnailOverlaysCheckBox.Name = "ShowThumbnailOverlaysCheckBox";
             this.ShowThumbnailOverlaysCheckBox.SignStyle = MetroSet_UI.Enums.SignStyle.Sign;
@@ -815,7 +815,7 @@ namespace EveOPreview.View
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.ThumbnailsList);
-            this.groupBox1.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.groupBox1.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(155)))), ((int)(((byte)(155)))));
             this.groupBox1.Location = new System.Drawing.Point(9, 18);
             this.groupBox1.Name = "groupBox1";
@@ -860,7 +860,7 @@ namespace EveOPreview.View
             // DocumentationLink
             // 
             this.DocumentationLink.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DocumentationLink.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.DocumentationLink.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.DocumentationLink.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.DocumentationLink.Location = new System.Drawing.Point(9, 214);
             this.DocumentationLink.Name = "DocumentationLink";
@@ -877,7 +877,7 @@ namespace EveOPreview.View
             // 
             // metroSetLabel7
             // 
-            this.metroSetLabel7.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.metroSetLabel7.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.metroSetLabel7.Location = new System.Drawing.Point(9, 45);
             this.metroSetLabel7.Name = "metroSetLabel7";
             this.metroSetLabel7.Size = new System.Drawing.Size(342, 192);
@@ -890,7 +890,7 @@ namespace EveOPreview.View
             // 
             // metroSetLabel6
             // 
-            this.metroSetLabel6.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.metroSetLabel6.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 9F);
             this.metroSetLabel6.Location = new System.Drawing.Point(9, 18);
             this.metroSetLabel6.Name = "metroSetLabel6";
             this.metroSetLabel6.Size = new System.Drawing.Size(330, 18);
@@ -959,7 +959,7 @@ namespace EveOPreview.View
             this.ControlBox = false;
             this.Controls.Add(MainTab);
             this.Controls.Add(this.metroSetControlBox1);
-            this.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 13F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "MainForm";
