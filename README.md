@@ -1,3 +1,7 @@
+# New UI with Chinese language
+
+![screenshot](https://aws1.discourse-cdn.com/eveonline/original/3X/5/6/56920d4284670c6b8d628498ed18d5570ccaa073.jpeg)
+
 # Overview
 
 The purpose of this application is to provide a simple way to keep an eye on several simultaneously running EVE Online clients and to easily switch between them. While running it shows a set of live thumbnails for each of the active EVE Online clients. These thumbnails allow fast switch to the corresponding EVE Online client either using mouse or configurable hotkeys.
