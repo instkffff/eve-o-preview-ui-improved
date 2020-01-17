@@ -3,6 +3,7 @@
 ![screenshot](https://aws1.discourse-cdn.com/eveonline/original/3X/5/6/56920d4284670c6b8d628498ed18d5570ccaa073.jpeg)
 
 > **knowning bug** 
+
 > background image can't scale in low dpi screen cause by ui kit. and i do not get a plan to solve it.
 
 # Overview
